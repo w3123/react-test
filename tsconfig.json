@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "es5",
+      "lib": [
+        "es6",
+        "dom"
+      ],
+      "baseUrl": ".",
+      "paths": {
+        "lib/*": [
+          "src/lib/*"
+        ]
+      },
+      "jsx": "react",
+      "sourceMap": true,
+      "strictNullChecks": true,
+      "noUnusedLocals": true,
+      "noImplicitReturns": true,
+      "noImplicitThis": true,
+      "noImplicitAny": true,
+      "suppressImplicitAnyIndexErrors": true,
+      "allowSyntheticDefaultImports": true,
+      "outDir": "./node_modules/__none__"
+    },
+    "exclude": [
+      "node_modules",
+      "build"
+    ]
+  }

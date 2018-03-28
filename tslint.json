@@ -1,0 +1,16 @@
+{
+    "rules": {
+        "no-var-keyword": true,
+        "no-conditional-assignment": true,
+        "arrow-return-shorthand": [
+            true,
+            "multiline"
+        ],
+        "no-unused-variable": true,
+        "no-invalid-this": true,
+        "semicolon": [
+            true,
+            "never"
+        ]
+    }
+}
